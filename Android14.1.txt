@@ -1,0 +1,43 @@
+Q1.  What is the difference between Internal Storage & External Storage ?
+Ans- Internal Storage:-
+     Internal Storage is storage that is not be directly accessible by the user, except via installed applications.
+     By default, files saved to the internal storage are private to your application and other applications cannot access them.
+
+     External Storage:-
+     A removable storage media is called External Storage. For example- SD cards
+     
+     External Storage has two types:-
+     1.Primary External Storage: It is a in built shared storage which can accessed on PC by connecting your phone to PC via USB cable
+       and selecting PTP in the USB options notification.
+     
+     2.Secondary External Storage: This type of storage can be accessed on PC by connecting your phone to PC via USB cable and selecting 
+       File transfer in the USB options notification.
+
+
+Q2.  For how long the data resides in the cache?
+Ans. Typically files will stay in the cache until space runs out . Data is stored on your devices in a reserved space, 
+     so the next time when you are visiting the app or website, information is already available.
+     Android’s smartphone cache is barely enough to hold 15 pages together.
+
+
+Q3.  What are the Critical Permissions and Normal Permissions? What are the examples of each?
+Ans. Normal permissions:-
+     Normal permissions are which indicates that there is no great risk to the user's privacy or security in letting apps have those permissions. 
+     For example, users would reasonably want to know whether an app can read their contact information, so users have to grant this permission explicitly in the
+     android menifest. 
+     
+     Some of the normal permissions in android:- 
+     EXPAND_STATUS_BAR
+     GET_PACKAGE_SIZE
+     INSTALL_SHORTCUT
+     INTERNET
+     KILL_BACKGROUND_PROCESSES
+
+
+     Critical Permissions:-
+     When requesting for critical permissions, we use a warm welcome screen to help understand a permission is requested. For example, for critical permissions
+     such as a camera app that needs camera permission, ask up-front for it. 
+     Secondary features can be requested later in context, such as a geotagging app when asking for a location permission. 
+     
+
+    
